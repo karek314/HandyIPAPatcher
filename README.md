@@ -17,7 +17,7 @@ HandyIPAPatcher is meant only for educational purposes and security research.
 3. Use <b>bash extract_thin.sh help</b>
 ![workdir](/screenshots/extract_thin.png?raw=true)
 4. This is step when you work with binaries
-5. Repacking <b>bash replace_bin.sh help</b> usually <b>bash replace_bin.sh fat trim</b> is fine.
+5. Repacking help <b>bash replace_bin.sh help</b><br>Usually <b>bash replace_bin.sh fat trim</b> is best option. After repacking, app.ipa will become patched ipa file to install.
 <br>![workdir](/screenshots/replace_bin.png?raw=true)
 6. Install app to Jailbroken device or Non-Jailbroken with [Cydia Impactor](http://www.cydiaimpactor.com)
 
