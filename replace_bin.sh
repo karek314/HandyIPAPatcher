@@ -5,13 +5,13 @@ echo -e "\033[1mReplace Bin Started\033[0m"
 if [ "$1" = "help" ]
   then
     echo -e "\033[2mBasic Usage\033[0m"
-    echo -e "\033[1mbash extract_thin.sh fat trim\033[0m"
+    echo -e "\033[1mbash replace_bin.sh fat trim\033[0m"
     echo ""
     echo -e "\033[2mAdvanced Usage - keep plugins\033[0m"
-    echo -e "\033[1mbash extract_thin.sh fat\033[0m"
+    echo -e "\033[1mbash replace_bin.sh fat\033[0m"
     echo ""
     echo -e "\033[2mAdvanced Usage - patch thin binaries (dev)\033[0m"
-    echo -e "\033[1mbash extract_thin.sh \033[0m"
+    echo -e "\033[1mbash replace_bin.sh \033[0m"
     echo ""
     exit
 fi
